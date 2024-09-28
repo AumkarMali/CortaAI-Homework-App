@@ -9,6 +9,16 @@
 # Homework Helper App | Goal of this project...
 
 Many applications available on the Android Store are designed to assist students with a variety of problems across different categories. The goal of CortaAI was not only to facilitate my entry into the app development ecosystem but also to create an application capable of addressing virtually any problem effectively. This was achieved by using various technologies that are already optimized for specific subjects.
+
+#### Program Explanation
+
+#### GUI
+
+A minimalistic and user-friendly interface was designed using the Kivy UI framework. Users can easily type their prompts and press Enter.
+
+
+
+#### Web Hosting and Backend
   
 ## Deployment
 
