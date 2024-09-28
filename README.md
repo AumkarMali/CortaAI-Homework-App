@@ -6,10 +6,9 @@
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 
-# Corta.AI 
+# Homework Helper App | Goal of this project...
 
-CortaAI is a cutting-edge educational app that utilizes artificial intelligence to help students in Math and Science.  
- 
+Many applications available on the Android Store are designed to assist students with a variety of problems across different categories. The goal of CortaAI was not only to facilitate my entry into the app development ecosystem but also to create an application capable of addressing virtually any problem effectively. This was achieved by using various technologies that are already optimized for specific subjects.
   
 ## Deployment
 
