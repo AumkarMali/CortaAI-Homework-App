@@ -8,7 +8,7 @@
 
 # Homework Helper App | Goal of this project...
 
-Many applications available on the Android Store are designed to assist students with a variety of problems across different categories. The goal of CortaAI was not only to facilitate my entry into the app development ecosystem but also to create an application capable of addressing virtually any problem effectively. This was achieved by using various technologies that are already optimized for specific subjects.
+Many applications available on the Android Store are designed to assist students with a variety of problems across different categories. The goal of CortaAI was not only to facilitate my entry into the app development ecosystem but also to create an application capable of addressing virtually any problem effectively. This was achieved by using GPT-3.
 
 #### Program Explanation
 
@@ -19,7 +19,14 @@ A minimalistic and user-friendly interface was designed using the Kivy UI framew
 ## Back-end Processes
 
 The back-end program is a hosted web application that communicates with the front-end app on Android using HTTP requests, specifically handling both GET and POST requests. The function `respond()` retrieves user input from the query parameter text using `request.args.get("text", None)`. This is how the front end sends data to the server. After the input is processed, the response is sent back to the front end in JSON format using `jsonify(response)`. This allows the front end to easily parse and display the response.
-#### 
+
+#### Problem Solving Method
+Depending on whether the input is identified as a math problem or not, the program prepares different prompts for GPT-3:
+- If it is a math problem, it constructs a prompt for math-related queries using prompt_chat_math.
+- If it is not a math problem, it uses a general prompt defined in prompt_chat_wordbased.
+The constructed prompt includes the user's input and asks GPT-3 for a response.
+
+
 ## Deployment
 This program was deployed using Flask and hosted on the [PythonAnywhere platform](https://www.pythonanywhere.com/).
 
