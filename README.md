@@ -14,7 +14,7 @@ Many applications available on the Android Store are designed to assist students
 
 #### GUI
 
-A minimalistic and user-friendly interface was designed using the Kivy UI framework. Users can easily type their prompts and press Enter.
+A minimalistic and user-friendly interface was designed using the Kivy UI framework. It features a text input field for users to enter their queries, and a microphone icon and an instructional label prompting users to "Enter text to start...". The interface includes two buttons: a "Submit" button to send the user's input to the AI and a "Clear" button to reset the input and output fields. The design emphasizes a clean aesthetic with a blue-gray theme and includes a logo image at the top for branding. Responses from the AI are displayed in a flat button format, enhancing readability while ensuring a smooth user experience.
 
 ## Back-end Processes
 
