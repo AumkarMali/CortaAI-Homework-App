@@ -12,12 +12,13 @@ Many applications available on the Android Store are designed to assist students
 
 #### Program Explanation
 
-#### GUI
+#### User Interface
 
 A minimalistic and user-friendly interface was designed using the Kivy UI framework. It features a text input field for users to enter their queries, and a microphone icon and an instructional label prompting users to "Enter text to start...". The interface includes two buttons: a "Submit" button to send the user's input to the AI and a "Clear" button to reset the input and output fields. The design emphasizes a clean aesthetic with a blue-gray theme and includes a logo image at the top for branding. Responses from the AI are displayed in a flat button format, enhancing readability while ensuring a smooth user experience.
 
 ## Back-end Processes
 
+The back-end program is a hosted web application that communicates with the front-end app on Android using HTTP requests, specifically handling both GET and POST requests. The function `respond()` retrieves user input from the query parameter text using `request.args.get("text", None)`. This is how the front end sends data to the server. After the input is processed, the response is sent back to the front end in JSON format using `jsonify(response)`. This allows the front end to easily parse and display the response.
 #### 
 ## Deployment
 This program was deployed using Flask and hosted on the [PythonAnywhere platform](https://www.pythonanywhere.com/).
