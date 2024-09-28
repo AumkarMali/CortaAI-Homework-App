@@ -16,9 +16,11 @@ Many applications available on the Android Store are designed to assist students
 
 A minimalistic and user-friendly interface was designed using the Kivy UI framework. Users can easily type their prompts and press Enter.
 
+## Back-end Processes
 
-  
+#### 
 ## Deployment
+This program was deployed using Flask and hosted on the [PythonAnywhere platform](https://www.pythonanywhere.com/).
 
 Get API key at https://products.wolframalpha.com/api
 
