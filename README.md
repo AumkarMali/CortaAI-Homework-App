@@ -17,8 +17,6 @@ Many applications available on the Android Store are designed to assist students
 A minimalistic and user-friendly interface was designed using the Kivy UI framework. Users can easily type their prompts and press Enter.
 
 
-
-#### Web Hosting and Backend
   
 ## Deployment
 
