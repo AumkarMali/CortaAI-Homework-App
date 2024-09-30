@@ -50,7 +50,7 @@ https://www.youtube.com/watch?v=5zzBfvukYqk
 ## Documentation
 
 [Documentation](hhttps://reference.wolfram.com/language/ref/WolframAlpha)
-[!Documentation](https://readthedocs.org/projects/buildozer/downloads/pdf/latest/#:~:text=Buildozer%20manages%20a%20file%20named,Android%2C%20iOS%2C%20and%20more)
+[Buildozer](https://readthedocs.org/projects/buildozer/downloads/pdf/latest/#:~:text=Buildozer%20manages%20a%20file%20named,Android%2C%20iOS%2C%20and%20more)
 
 
 ## Authors
